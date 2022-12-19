@@ -1,6 +1,6 @@
 delete unwanted pictures in directory. Feature resize and crop all images.
 
-#Delete unwanted pictures in directory
+# Delete unwanted pictures in directory, resize and crop
 ______
 
 Call, ex:
@@ -27,13 +27,14 @@ ex:
  	$size = [300, 300];
  	$images->resize($path, $size);
 
- #Resize / Crop Image Example
+ # Resize / Crop Image Example
 
  	$img = new Image();
 	$img->make("../images/image_to_resize.jpg");
 	$img->resize(800, 541);
 
 or
+
 	$img->crop(441, 500);
 
 save to your path
