@@ -27,7 +27,7 @@ ex:
  	$size = [300, 300];
  	$images->resize($path, $size);
 
- # Resize / Crop Image Example
+ # Resize / Crop an Image Example
 
  	$img = new Image();
 	$img->make("../images/image_to_resize.jpg");
